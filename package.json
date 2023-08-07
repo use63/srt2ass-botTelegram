@@ -1,0 +1,21 @@
+{
+  "name": "telegpt",
+  "version": "1.0.0",
+  "description": "bot telegram chatGPT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Nori Nofandi",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "archiver": "^5.3.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "node-telegram-bot-api": "^0.61.0",
+    "unzipper": "^0.10.14"
+  }
+}
